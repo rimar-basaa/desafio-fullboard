@@ -1,0 +1,50 @@
+/* -----------encabezado----------------- */
+.header {
+    background-image: url(../img/header.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size: 2rem;
+    color: white;
+    padding: 2em;    
+}
+.header h1 {
+    margin: 0px;    
+}
+
+/* -------------productos---------------- */
+.producto {
+    width: 80%;
+    margin: auto;   
+}
+
+.producto table {
+    width: 100%;
+    border: 1px rgb(38, 111, 207) solid;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.producto td {
+    width: 50%;
+    padding: 1em;  
+}
+
+.producto img {
+    height: 200px;
+    width: 200px;
+    border: solid 1px gainsboro;
+    border-radius: 10px;    
+}
+
+/* -----------pie pagina----------------- */
+.footer {
+    height: 4em;
+    line-height: 4em;
+    margin-top: 20px;
+    background-color: rgb(38, 111, 207);
+    color: white;
+    text-align: center;
+    
+}
+
+
